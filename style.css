@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: palevioletred;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+header{
+    background: palevioletred;
+    color:white;
+    padding top: 25px;
+    min-height: 80px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    font-size:16px
+}
+header a:hover{
+    background-color: palegoldenrod;
+    color:cornflowerblue;
+}
+header li{
+    list-style-position:  none;
+    display:inline;
+    padding:0 20px;
+    
+}
+header #branding{
+
+}
+header #branding h1{
+    font-size:45px;
+    font-weight: bold;
+    margin:0;
+    line-height:1.1em;
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+}
+
+/*Hero Area*/
+
+#hero-area{
+    min-height: 520px;
+    text-align:center;
+    padding-bottom: 20px;
+    background-image: url("https://lh3.googleusercontent.com/zcf1VuItNjHHPBM7EHD7mLi20i5ASvYpmSYFG_2h6X7TSy3scG5dFOvXx70zqo8Fi1JHhWHiBUjeEtFTxU84gZna-1PoDyehfIcvNA-GBLW9AJfuWH3hG6bvCxJX3yswkI53C457huL_ZU-SAoXB0cv6ZfN-YULCNKS6tViYuMghJc5hUJUvSpf6bOVc85sIrHLNgCotVR1h-bGAoBGpF7_FW2SzKq8EHbvdfHhyxFfV92EhPLtIPMs1lCYkLF9jZr8P_F6jNle400nK1dX967f5w7E9nmDKkJhy3kNrfUThNDuLbPuR7usjCoStGX_OjJvz875lOUAp70I48fiCE9BFVJYDtWByvwMFaejJWkglNTviBVUR0X0PsCbUYZ_YiquVP2dvyIwxH_kXNxc7PhSFxoWcxk6PRuufT6tjfkPcO_FhzotqSpDHGPqm_XSl5nXfCemMAlNl3aozjusZWtM26ccTQ875zSu2OsXrRWO2hrLnbxAzgYuA_YRomp1HN0TmYfUkU8jlj5CPWmJ_czx20cC-KkSrDeXQ0TYR5UQd03nbiqOlX9pLvbXkvrEb3UT61ofHdSzhRU6gjlGpJxImru2rYdTEDXGWwtt4HC-VhZ6RFyd9qiMB7tLtbKCqQfmlN0A0vHiXwC9JBf_Eh8Mx0HDc-k6dEnB8kzIAcvQnHikNfow5C8UY=w859-h530-no");
+    
+    
+}
+#hero-area h1{
+    font-weight: bold;
+    font-size: 140px;
+    font-family: 'Bungee', cursive;
+    color:white;
+    margin-top:128px;
+    text-shadow: -2px 0 palevioletred, 0 2px palevioletred, 2px 0 palevioletred, 0 -2px palevioletred;
+}
+
+#hero-area h2{
+    color: white;
+    font-size:50px;
+    line-height:1.8em;
+    text-shadow:  -2px 0 palevioletred, 0 2px palevioletred, 2px 0 palevioletred, 0 -2px palevioletred;
+}
+
+
+/*Pages*/
+
+#services-container1{
+    width:60%;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+}
+.service{
+    width: 20%;
+    text-align: center;
+    padding: 80px 130px;
+    margin: 50px;
+    background-color: palegoldenrod;
+}
+footer{
+    background-color: deeppink;
+    text-align: center;
+    margin-top: 100px;
+    color:white;
+}
+/*Media Queries*/
+@media(max-width:800px){
+    header #branding, header nav, header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #hero-area h1{
+        margin-top: 80px;
+        line-height: 1.5em;
+        font-size: 50px;
+    }
+    #services-container1{
+        display:block;
+        
+    }
+    .service{
+        float:none;
+        width: 100%;
+    }
+    
+}

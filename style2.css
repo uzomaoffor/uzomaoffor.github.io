@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: palegoldenrod;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+header{
+    background: palevioletred;
+    color:white;
+    padding top: 25px;
+    min-height: 80px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    font-size:16px
+}
+header a:hover{
+    background-color: palegoldenrod;
+    color:cornflowerblue;
+}
+header li{
+    list-style-position:  none;
+    display:inline;
+    padding:0 20px;
+    
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 180px;
+    color:white;
+    font-family: 'Bungee', cursive;
+    text-shadow: -2px 0 palevioletred, 0 2px palevioletred, 2px 0 palevioletred, 0 -2px palevioletred;
+}

@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-image: url("https://lh3.googleusercontent.com/euljZPX2j7jfqeXRQ5xB4BM3Isf2fCGGSbOnWIr1z9N-fYR-HEVLwaipS-HdYsHEYvQMMeMrXsdhP87IarCQcCIPdfh9pGqh3oABhRn-XV0EIiG9KfGw8OlmynnQsSPlWgBgpFNtrrM0SXJNlLJsowiznOQuDzS05BXRHNq6exAymjoqSgv6k3fbtYpuBVa113V3GLuG-myY2wQ5woWffdup7PbpmDQKHvYcuHRr3E9P-v4XQ6Kt1dyx4CuomUHVyWR3FgfZnfUPGabqjKOJt6g6JQHeAuoB5Ql5yEm_wrgqAGciwySlfEHrBpBm5AM7a28jY0lpmR9U9Z5IuIOWenuC3lRhjA6Rc74rpFjF3x1PUu9j6Dx92jszPnSDIEwpAhtFXGdr9e00s2Jv4g8zC_B6yD36J8dJC-j11JTlYb5bLKEJ0QqlbPHnu9g3-pyfLbRpR56Dpy4qHbEfwb7g3RCvWxcJnaSUSW0UKd86Bdsmpj-oxeD5nGXBnxuQvRl_dJQfTJ0yt-Bjtl5bIsKYehag-nT1hkVXO8n8Re_Owt8DuoKlruuuXbCs5DKI-mgL0OVF4rfd3nWLW__KeSKk_d7-0THFOJr6SDtdXnzdTPysWmhaQ25C3S1cJME_5Qq5kCstEMdWDqWe7LRTRrP7UCzcTY2oQuLMCg7KyxHu_ICld_h2r3lWTJpK=w358-h239-no");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title{
+    margin-top:100px;
+    color: 8CAEFB;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 50px;
+    line-height: 15px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.contact-title h2{
+    font-size: 25px;
+    color: palegoldenrod;
+     text-shadow: -1px 0 cornflowerblue, 0 1px cornflowerblue, 1px 0 cornflowerblue, 0 -1px cornflowerblue;
+}   
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out
+
+}
+.form-control{
+    width:600px;
+    background: whitesmoke;
+    border:none;
+    outline:none;
+    border-bottom: 10px solid palegoldenrod;
+    color:deeppink;
+    font-size: 18px;
+    margin-bottom: 16px;  
+}
+input{
+    height: 45px;
+    
+}
+input.submit{
+    background: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    letter-spacing: 2px;
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    color:whitesmoke;
+}

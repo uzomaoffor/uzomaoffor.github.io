@@ -1,0 +1,54 @@
+/* Split the screen in half */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-image: url("https://lh3.googleusercontent.com/NSLV1ZFD5hDH3_KcgMkfpO-7H1KI-IeIVz7x-ZLGzC7M3gMvLEhEJXRjM10Zu72vLZSWuFvZsUikPDuf9wghPbsmsHVCE4yJHl04dt55D9RxA2vNVKBylQiSShz73RyNB7zBmtcL4lwCVpg_vazvqzkgO7Viiy-4y9QGqwYPMvHRZ6df8YBR4k3OOmaKbM4ac7L_2CqG4cyUxelzBzSYNIpS5u5iiQcHngyhcZ_-g0y8XdO_PmzobDdyJgFLrxR_ewo3CIIf2vWrTc7kA6Tzle3xM5T43SArjyWiBEaNFJ0jaIg0u4Mtgdfq2Z5OmFN7sCu9NbHQBgt37_BtO3OKNLSBwwXkEGlXmlveTHOzEPjbjX2mYlMqmhTpzFPvT2fofdnLcl3vIfJNgHpE7J--y2QyJxx7LYi4EC6Olqq9xppkh2m9s2A5i2z6YJ5v2PfytKiFqmBV496n5J1ZSKAeWJl7Wv7KBv02st_sZhCZzd5PErfYPLkaRNiZ6R0-Euyx7-3Pxf5T-gm9DA20BckTeg8WMn8UsEYOFAAAZH4HzNapR4qtPF312ZBpyS1RvGCj-yZRu1pA9aEu-1EJvswz3Ax02hEH65CO8I61dn6Xnk3uj58mcMuI1yUBFIP-KJAY0KIujmz08NiJixjh_w3nYakXQiqB2ZnjI_A99qV-uK56G8ZZkafeT6tQ=w585-h821-no");
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: palegoldenrod;
+}
+.right #title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    letter-spacing: 5px;
+    color:cornflowerblue;
+}
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    text-align: justify;
+    border: 16px solid whitesmoke;
+    border-style: double;
+    padding: 30px 60px;
+    font-size: 22;
+    margin-top:0;
+    color:white;
+    text-shadow: -2px 0 cornflowerblue, 0 2px cornflowerblue, 2px 0 cornflowerblue, 0 -2px cornflowerblue;
+    
+}
+.centered h1{
+    text-align: center;
+    font-size: 50;
+    color:deeppink;
+    text-shadow:none;
+}
+
+/* Style the image inside the centered container, if needed */
